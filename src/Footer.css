@@ -1,0 +1,186 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer-main {
+  background-color: #a4ff00;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cta {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+}
+
+.cta h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.cta h1,
+.cta h2,
+.cta p {
+  color: #fff;
+}
+
+.cta-btn {
+  background-color: #3d3d3d;
+  color: #a4ff00;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cta-btn::after {
+  content: " ➡️";
+  margin-left: 10px;
+}
+
+.footer-secondary {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.company-info {
+  flex: 2;
+  max-width: 300px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-services,
+.footer-location,
+.footer-contact {
+  flex: 1;
+}
+
+.footer-services h4,
+.footer-location h4,
+.footer-contact h4 {
+  color: #a4ff00;
+}
+
+.footer-services ul,
+.footer-location,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-services ul li,
+.footer-location p,
+.footer-contact p {
+  color: #fff;
+}
+
+.footer-services ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-services li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-contact .social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #222;
+  color: #999;
+}
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav ul li {
+  margin-right: 20px;
+}
+
+.footer-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+  color: #a4ff00;
+}
+
+.copyright {
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .footer-secondary {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-secondary > div {
+    margin-bottom: 20px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-nav ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    font-size: 0.9rem;
+  }
+
+  .footer-nav ul li {
+    margin-right: 10px;
+  }
+}

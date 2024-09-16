@@ -1,0 +1,148 @@
+.why-choose-us-section {
+  padding: 50px 0;
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+.why-choose-us-section h2 {
+  font-size: 2.5em;
+  color: white;
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.why-choose-us-grid {
+  display: grid;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.why-choose-us-item {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.image-left {
+  flex-direction: row;
+}
+
+.image-right {
+  flex-direction: row-reverse;
+}
+
+.why-choose-us-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.image-right .why-choose-us-image {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.why-choose-us-text {
+  text-align: left;
+  color: white;
+}
+
+.why-choose-us-text h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.why-choose-us-text p {
+  font-size: 1.2em;
+  color: white;
+}
+
+.read-more-button {
+  background-color: #a6ff00;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .why-choose-us-section {
+    padding: 40px 15px;
+  }
+
+  .why-choose-us-section h2 {
+    font-size: 2em;
+  }
+
+  .why-choose-us-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .why-choose-us-image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .why-choose-us-text {
+    text-align: center;
+  }
+
+  .why-choose-us-text h3 {
+    font-size: 1.3em;
+  }
+
+  .why-choose-us-text p {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-choose-us-section {
+    padding: 30px 10px;
+  }
+
+  .why-choose-us-section h2 {
+    font-size: 1.8em;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .why-choose-us-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  .why-choose-us-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .why-choose-us-text {
+    text-align: center;
+  }
+
+  .why-choose-us-text h3 {
+    font-size: 1.2em;
+  }
+
+  .why-choose-us-text p {
+    font-size: 1em;
+  }
+
+  .read-more-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}

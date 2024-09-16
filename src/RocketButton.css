@@ -1,0 +1,27 @@
+.rocket-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.rocket-button {
+  background-color: #00aaff;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.rocket-button:hover {
+  background-color: #007acc;
+  transform: scale(1.1);
+}
+
+.rocket-button:active {
+  background-color: #005f99;
+}

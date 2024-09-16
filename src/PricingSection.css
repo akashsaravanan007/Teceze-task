@@ -1,0 +1,154 @@
+.pricing-section {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h4 {
+  color: #a4ff00;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.pricing-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.pricing-card {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid #a4ff00;
+}
+
+.card-header {
+  position: relative;
+}
+
+.card-header h3 {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.label {
+  background-color: #a4ff00;
+  color: #111;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.price {
+  font-size: 2rem;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.features-list li {
+  font-size: 0.95rem;
+  color: #ddd;
+  padding: 5px 0;
+}
+
+.features-list li::before {
+  content: "+";
+  color: #a4ff00;
+  margin-right: 10px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.book-call-btn,
+.buy-btn {
+  padding: 10px 20px;
+  border: 2px solid #a4ff00;
+  background-color: transparent;
+  color: #a4ff00;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-call-btn:hover,
+.buy-btn:hover {
+  background-color: #a4ff00;
+  color: #111;
+}
+
+@media (max-width: 1024px) {
+  .pricing-cards-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 1.8rem;
+  }
+}
